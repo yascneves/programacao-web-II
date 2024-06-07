@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="processa_form.php" method="get">
+      <p>Tipo de Entrada Lista de Valores</p>
+      <label for="listavalores">Escolha a cor</label>
+      <input list="valores" name="valores" id="listavalores" required />
+      <datalist id="valores">
+        <option value="Cor Azul"></option>
+        <option value="Cor Vermelha"></option>
+        <option value="Cor Preta"></option>
+        <option value="Cor Verde"></option>
+      </datalist>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpar" />
+    </form>
+  </body>
+</html>

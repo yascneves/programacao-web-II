@@ -1,0 +1,5 @@
+Aula 30/04/2024 - Prof. Maicon
+
+Formulário
+- Métodos GET e POST
+- Exemplo de preenchimento do campo "nota"

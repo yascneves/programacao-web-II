@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio - Formulário</title>
+  <script type="text/javascript">
+    function atualizaEntrada(numero){
+      document.getElementById('nota_escolhida').value = numero;
+    }
+  </script>
+</head>
+<body>
+  <form action=""processa_form.php" method="get">
+    <p>Qual a nota para o nosso atendimento?</p>
+    <input type="range" name="nota" min="1" max="10" value="6" onchange="atualizaEntrada(this.value)">
+    <input type="text" name="valor_nota" id="nota_escolhida" placeholder="Arraste a barra"> <br><br>
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

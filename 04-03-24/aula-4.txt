@@ -1,0 +1,6 @@
+Programação Web II - Aula 4
+
+Criando um banco de dados no MySQL
+
+Comandos:
+- mysql_connect
