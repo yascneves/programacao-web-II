@@ -1,0 +1,91 @@
+Professor Maicon
+
+- php (é o que veremos no semestre)
+- banco de dados
+- apache (servidor local)
+
+PHP:
+Como abrir um codigo do php?
+<?
+
+Como fechar um codigo do php?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?> 
+
+Como é o processo?
+captamos a informação
+tudo que enviaremos será através de formulários
+
+Objeto: é uma classe (ex.: pessoa)
+Classe: conjunto de atributos que possuem determinadas características (ex.: menino, menina, bebê, adulto, etc.)
+Programação orientada a objeto: quando defino um atributo (variável), aloco uma característica.
+
+Sintaxe de uma variável?
+$nomeDaVariavel = "variavel se string";
+$_nomeDaVariavel = 1;

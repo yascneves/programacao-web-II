@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Clientes</title>
+</head>
+<body>
+  <form method="post" name="formCadastro" action="http://localhost/cadcliente.php">
+
+    <h1>Cadastro de clientes</h1>
+    <table width="100%">
+      <tr>
+        <th width="18%">Nome</th>
+      <td width="82%"><input type="text" name="txtNome" maxlength="14"></td>
+    </tr>
+    <tr>
+      <th width="18%">CPF</th>
+      <td width="82%"><input type="text" name="txtCPF" maxlength="14"></td>
+    </tr>
+    <tr>
+      <th width="18%">Endereço</th>
+      <td><textarea name="txtEndereco" cols="30" rows="4"></textarea></td>
+    </tr>
+    <tr>
+      <th>Estado</th>
+      <select name="listEstados" id="">
+        <option value="BA">Bahia</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+      </select>
+    </tr>
+    <tr>
+      <th width="18%">Data Nasc.</th>
+      <td><input type="text" name="txtData"></td>
+    </tr>
+    <tr>
+      <th width="18%">Sexo</th>
+      <td>
+        <input type="radio" name="sexo" value="M" checked> Masculino
+        <input type="radio" name="sexo" value="M">Feminino
+      </td>
+    </tr>
+    <tr>
+      <th width="18%">Áreas de Interesse</th>
+      <td>
+        <input type="checkbox" name="checkCinema" value="M"> Cinema <br>
+        <input type="checkbox" name="checkCinema" value="M"> Música <br>
+        <input type="checkbox" name="checkCinema" value="M"> Informática <br>
+      </td>
+    </tr>
+    <tr>
+      <th>Login</th>
+      <td><input type="text" name="txtLogin" type="text"></td>
+    </tr>
+    <tr>
+      <th>Senha</th>
+      <td><input type="text" name="txtSenha1" type="password"></td>
+    </tr>
+    <tr>
+      <th>Confirmar a senha</th>
+      <td><input type="text" name="txtSenha1" type="password"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="btnEnviar" value="Enviar"></td>
+      <td><input type="reset" name="btnLimpar" value="Limpar"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Aula 2 
+
+Falamos sobre:
+
+Métodos:
+- GET
+- POST
